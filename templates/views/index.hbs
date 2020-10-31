@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <h1>Welcome to {{title}}</h1>
+    {{>header}}
+    
+    <form>
+        <input type="text" placeholder="enter location...">
+        <button type="submit">Submit</button>
+    </form>
+
+    <div class="resultMsg">
+    </div>
+
+    {{>footer}} 
+    
+    <script src="/js/client.js"></script>
+</body>
+
+</html>

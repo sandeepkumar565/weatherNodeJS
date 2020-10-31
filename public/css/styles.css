@@ -1,0 +1,75 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+header {
+    border-bottom: 2px solid blue;
+    margin: 50px 0;
+}
+
+header a {
+    padding: 10px 30px 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+body>h1 {
+    color: blue;
+}
+
+img {
+    width: 300px;
+}
+
+form {
+    margin: 20px;
+}
+
+form input {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 25px;
+}
+
+form input::placeholder {
+    text-align: left;
+    font-size: 14px;
+    color: #666;
+    padding: 10px;
+}
+
+form button {
+    height: 28px;
+    font-size: 14px;
+    color: #000;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 30px;
+}
+
+div.resultMsg {
+    font-size: 24px;
+    color: red;
+    padding: 20px;
+}
+
+.resultMsg h3 {
+    color: purple;
+}
+
+.resultMsg p {
+    color: black;
+}
+
+footer {
+    position: absolute;
+    bottom: 5%;
+    border-top: 2px solid blue;
+    max-width: 880px;
+    padding: 0 10px;
+    width: 100%;
+}
